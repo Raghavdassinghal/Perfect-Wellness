@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+  background-image: url("/static/images/back7.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+  border-radius: 30%;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 20%;
+  border-radius: .8;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color: red;
+}
+
+* {
+  box-sizing: border-box;
+  border-radius: 10%;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+h2{
+  text-align: center;
+  font-size: 300%;
+}
+</style>
+</head>
+<body>
+
+<h2>TOP 4 BEST DOCTOR</h2>
+
+<div class="responsive">
+  <div class="gallery">
+    <a  href="/static/images/img_5terre.jpg">
+      <img src="/static/images/dr8.jpg" alt="Cinque Terre" width="100" height="100">
+    </a>
+    <div class="desc"><strong>DR.GAHLOT'S<br>(HEMOEPATHY)<br>15 YEAR EXP.<br>ADDRESS:Ashirwad 91 Pannadhai Circle,Haldhi Ghati,Pratap Nagar,Jaipur,302023<br>MOBILE:+919928175153</strong></div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a href="/static/images/img_forest.jpg">
+      <img src="/static/images/dr5.jpg" alt="Forest" width="100" height="100">
+    </a>
+    <div class="desc"><strong>DR.RAKHI<BR>5 YEAR EXP.<br>ADDRESS:Sector 3,Sanganer,Pratap Nagar,Jaipur,303906<br>MOBILE:+918058800887</strong></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a href="/static/images/img_lights.jpg">
+      <img src="/static/images/dr6.jpg" alt="Northern Lights" width="100" height="100">
+    </a>
+    <div class="desc"><strong>DR. P.N.BAIRWA<br>10 YEAR EXP.<br>ADDRESS:111/137,Kumbha Marg,Sunny Nagar,Sanganer,Sector 5,302033<br>MOBILE:+919414229396</strong></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a href="/static/images/img_mountains.jpg">
+      <img src="/static/images/dr7.jpg" alt="Mountains" width="100" height="100">
+    </a>
+    <div class="desc"><STRONG>DR.DHEERAJ<br>12 YEAR EXP.<br>ADDRESS:83/61,Sector-8 Pratap Nagar,Jaipur,302033<br>MOBILE:+919414257737</STRONG></div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+<div style="padding:6px;">
+  <p></p>
+  <p></p>
+</div>
+
+</body>
+</html>

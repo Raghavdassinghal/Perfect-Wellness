@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                background-image: url("/static/images/back3.jpg");
+                background-repeat: no-repeat;
+                background-size: 100%;
+                font-weight: bolder;
+            }
+            h1{
+                color: yellowgreen;
+                font-family: 'Lucida Sans';
+                font-size: 300%;
+            }
+            div{
+                text-align: center;
+                color: black;
+                font-size: 140%;
+            }
+            h2{
+                color: chartreuse;
+            }
+            .button {
+                background-color: #1c87c9;
+                border: none;
+                color: white;
+                padding: 20px 34px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 20px;
+                margin: 4px 2px;
+                cursor: pointer;
+      }
+        </style>
+    </head>
+    <h1 style="text-align: center;">DIAGNOSIS</h1>
+    <body>
+       
+            <div>
+                <form action="/after_files/" target="_blank">
+
+                <lable><strong>GENDER:</strong></lable><br>
+                <strong>MALE</strong>
+                <input type="radio" name="y" value="Male"><br>
+                <strong>FEMALE</strong>
+                <input type="radio" name="Y" value="Female"><br>
+                <strong>OTHER</strong>
+                <input type="radio" name="Y" value="other"><br><br>
+
+                <label>AGE:</label>
+                <input type="number" placeholder="Enter your AGE"><br><br>
+
+                <label for="email">ANY MEDICAL HISTORY</label><br>
+                <strong>YES</strong>
+                <input type="radio" name="y" value="YES"><br>
+                <strong>NO</strong>
+                <input type="radio" name="Y" value="NO"><br><br>
+               
+                <label for="email">NUMBER OF DAYS HAVING PROBLEM</label>
+                <input type="email" id="email" name="email" placeholder="NUMBER OF DAYS"><br><br>
+
+                <label for="email">ANY IRRELEVANT SYMPTOMS?</label><br>
+                <strong>YES</strong>
+                <input type="radio" name="y" value="YES"><br>
+                <strong>NO</strong>
+                <input type="radio" name="Y" value="NO"><br><br>
+                
+                <!--<input type="submit" value="Submit">-->
+                
+                <button type="submit" name="button"><a href="/diseases/">Submit</a></button>
+                </form> 
+            </div>
+            
+    </body>
+</html>

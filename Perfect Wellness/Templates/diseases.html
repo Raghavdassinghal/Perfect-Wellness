@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+      body{
+          background-image: url("/static/images/BACK.jpg");
+          background-repeat: no-repeat;
+          background-size: 100%;
+          margin-top: 0%;
+          margin-left: 70%;
+          padding-left: 40%;
+          border-radius: 20px;
+          box-shadow: black;
+          transition: width 5s;
+          transition: height 5s;
+          margin-left: 0%;
+      }
+      div{
+          box-shadow: whitesmoke;
+      }
+      div.gallery {
+        margin: 5%;
+        border: 1px solid red;
+        border-radius: 20px;
+        float: right;
+        width: 180px;
+        box-shadow: black;
+      }
+
+      div.gallery:hover {
+        border-radius: 25px;
+        image-resolution: 90%;
+        background-size: 90%;
+        box-shadow: black;
+        width: 200px;
+        height: 200px;
+      }
+
+
+      div.gallery img {
+        width: 100%;
+        height: auto;
+        box-shadow: black;
+      }
+
+      div.desc {
+        padding: 10px;
+        text-align: center;
+      }
+
+</style>
+</head>
+<body>
+<div class="gallery" >
+  <a href="/cold/">
+    <img src="/static/images/cold - Copy.jpg" alt="Cinque Terre" width="180" height="100">
+  </a>
+  <div class="desc"><strong>COLD,COUGH</strong></div>
+</div>
+
+<div class="gallery">
+  <a href="/fever/">
+    <img src="/static/images/fever.jpg" alt="Forest" width="180" height="100">
+  </a>
+  <div class="desc"><strong>FEVER</strong></div>
+</div>
+
+<div class="gallery">
+  <a href="/headache/">
+    <img src="/static/images/headache.jpg"  width="180" height="100">
+  </a>
+  <div class="desc"><strong>HEADACHE</strong></div>
+</div>
+
+<div class="gallery">
+  <a href="/anemia/">
+    <img src="/static/images/Anemia.jpg" alt="Mountains" width="180" height="100">
+  </a>
+  <div class="desc"><strong>GAS </strong></div>
+</div>
+
+<div class="gallery">
+    <a href="/constipation/">
+      <img src="/static/images/Constipation2.jpg" alt="Mountains" width="180" height="100">
+    </a>
+    <div class="desc"><strong>CONSTIPATION </strong></div>
+  </div>
+
+  <div class="gallery">
+    <a href="/bp/">
+      <img src="/static/images/pressure.jpg" alt="Mountains" width="180" height="100">
+    </a>
+    <div class="desc"><strong>DIABETES</strong></div>
+  </div>
+
+</body>
+</html>
